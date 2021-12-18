@@ -41,7 +41,7 @@
 // as aggressive as possible.
 
 #ifndef PICO_FLASH_SPI_CLKDIV
-#define PICO_FLASH_SPI_CLKDIV 4
+#define PICO_FLASH_SPI_CLKDIV 2
 #endif
 #if PICO_FLASH_SPI_CLKDIV & 1
 #error PICO_FLASH_SPI_CLKDIV must be even
